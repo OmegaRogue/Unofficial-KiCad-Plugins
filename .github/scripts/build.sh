@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 METADATA_FILES=$(find -name metadata.json | paste -sd " ")
 ICON_FILES=$(find -name icon.png | paste -sd " ")
