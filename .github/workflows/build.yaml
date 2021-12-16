@@ -23,8 +23,9 @@ jobs:
       - uses: actions/checkout@v2
         with:
           ref: ${{ github.head_ref }}
+      - run: sh "chmod 775 ./.github/scripts/build.sh"
       - name: Build Repository index
-        run: ./.github/scripts/build.sh
+        run: sh  "./.github/scripts/build.sh"
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Build latest changes
