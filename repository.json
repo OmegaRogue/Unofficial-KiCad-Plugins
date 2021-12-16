@@ -1,0 +1,22 @@
+{
+  "$schema": "https://gitlab.com/kicad/code/kicad/-/raw/master/kicad/pcm/schemas/pcm.v1.schema.json#/definitions/Repository",
+  "maintainer": {
+    "contact": {
+      "web": "https://omegavoid.codes/#/omegarogue"
+    },
+    "name": "OmegaRogue"
+  },
+  "name": "KiCad unofficial repository",
+  "packages": {
+    "url": "https://raw.githubusercontent.com/OmegaRogue/Unofficial-KiCad-Plugins/main/packages.json",
+    "sha256": "0031f88927d1c654c5d493b19e1e883322e5825a8f8884d40402e37e54dddf76",
+    "update_time_utc": "16-12-2021 15:09:00",
+    "update_timestamp": 1639667340
+  },
+  "resources": {
+    "url": "https://raw.githubusercontent.com/OmegaRogue/Unofficial-KiCad-Plugins/main/resources.zip",
+    "sha256": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85",
+    "update_time_utc": "16-12-2021 15:09:00",
+    "update_timestamp": 1639667340
+  }
+}
