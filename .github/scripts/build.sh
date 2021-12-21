@@ -20,11 +20,11 @@ if [ ! -z "$METADATA_FILES" ]; then
 fi
 
 jq --arg sha "$(sha256sum packages.json | awk '{ print $1 }')" '.packages.sha256 = $sha' repository.json > tmp/repository.json.0
-jq '.packages.update_time_utc = (now | strftime("%d-%m-%Y %T"))' tmp/repository.json.0 > tmp/repository.json.1
+jq '.packages.update_time_utc = (now | strftime("%Y-%m-%d %T"))' tmp/repository.json.0 > tmp/repository.json.1
 jq '.packages.update_timestamp = (now|floor)' tmp/repository.json.1 > tmp/repository.json.2
 
 
 
 jq --arg sha "$(sha256sum resources.zip | awk '{ print $1 }')" '.resources.sha256 = $sha' tmp/repository.json.2 > tmp/repository.json.3
-jq '.resources.update_time_utc = (now | strftime("%d-%m-%Y %T"))' tmp/repository.json.3 > tmp/repository.json.4
+jq '.resources.update_time_utc = (now | strftime("%Y-%m-%d %T"))' tmp/repository.json.3 > tmp/repository.json.4
 jq '.resources.update_timestamp = (now|floor)' tmp/repository.json.4 > repository.json
