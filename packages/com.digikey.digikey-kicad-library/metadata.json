@@ -26,9 +26,9 @@
 			"version": "1.2",
 			"status": "stable",
 			"kicad_version": "6.0",
-			"download_size": 1243,
-			"install_size": 1331,
-			"download_sha256": "93212759e5597a29db54f4b7cd927577cc7eea73a4024bef42173dbf0fa44075",
+			"download_size": 840479,
+			"install_size": 7901716,
+			"download_sha256": "70476cd6f0f6dedb91ceed105c589734eb65080aee830b84c882bf3e2e359462",
 			"download_url": "https://github.com/OmegaRogue/digikey-kicad-library/releases/download/v1.2/com.digikey.digikey-kicad-library_v1.2_pcm.zip"
 		}
 	]
