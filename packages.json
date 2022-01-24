@@ -1,1 +1,39 @@
-{"packages": []}
+{
+  "packages": [
+    {
+      "$schema": "https://go.kicad.org/pcm/schemas/v1",
+      "name": "digikey-kicad-library",
+      "description": " An atomic parts library for Ki-Cad. ",
+      "description_full": "The goal of the digikey-kicad-library library is to offer a collection of visually consistent and well defined parts that include assigned footprints. The library is intended to augment KiCad's default library and give users another choice in library paradigm (meaning that it is One Solution, not The Solution). It contains 1-to-1 symbol to footprint assignments to meet the needs of those who prefer that style. It does not currently include the idea of a one symbol to many footprints as that defeats the purpose of having an orderable part number ready for the Bill of Materials.",
+      "identifier": "com.digikey.digikey-kicad-library",
+      "type": "library",
+      "author": {
+        "name": "Digi-Key",
+        "contact": {
+          "web": "https://www.digikey.com"
+        }
+      },
+      "maintainer": {
+        "name": "OmegaRogue",
+        "contact": {
+          "web": "https://omegavoid.codes"
+        }
+      },
+      "license": "CC-BY-SA-4.0",
+      "resources": {
+        "homepage": "https://github.com/OmegaRogue/digikey-kicad-library"
+      },
+      "versions": [
+        {
+          "version": "1.2",
+          "status": "stable",
+          "kicad_version": "6.0",
+          "download_size": 840479,
+          "install_size": 7901716,
+          "download_sha256": "70476cd6f0f6dedb91ceed105c589734eb65080aee830b84c882bf3e2e359462",
+          "download_url": "https://github.com/OmegaRogue/digikey-kicad-library/releases/download/v1.2/com.digikey.digikey-kicad-library_v1.2_pcm.zip"
+        }
+      ]
+    }
+  ]
+}

@@ -9,14 +9,14 @@
   "name": "KiCad unofficial repository",
   "packages": {
     "url": "https://omegarogue.omegavoid.codes/Unofficial-KiCad-Plugins/packages.json",
-    "sha256": "0031f88927d1c654c5d493b19e1e883322e5825a8f8884d40402e37e54dddf76",
-    "update_time_utc": "2021-12-21 14:04:27",
-    "update_timestamp": 1640095467
+    "sha256": "6164e4187230837068457adb236cfea4f4bc3a13ffbed724859e9342923c6b4f",
+    "update_time_utc": "2022-01-24 12:31:46",
+    "update_timestamp": 1643027506
   },
   "resources": {
     "url": "https://omegarogue.omegavoid.codes/Unofficial-KiCad-Plugins/resources.zip",
-    "sha256": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85",
-    "update_time_utc": "2021-12-21 14:04:27",
-    "update_timestamp": 1640095467
+    "sha256": "c2268a608e278ff5eb2a09084d7b7c62741075088d5a29bb07fbbadb679b7f14",
+    "update_time_utc": "2022-01-24 12:31:46",
+    "update_timestamp": 1643027506
   }
 }
